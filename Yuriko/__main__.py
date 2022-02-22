@@ -82,36 +82,37 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-*👋 Hello {} !*
+*💖 ʜᴇʟʟᴏ {} !*
 
-✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
+🔥 *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ*
+
+💞 ɴᴇɴᴜ ᴍᴇ ɢʀᴏᴜᴘ ɴɪ ᴍᴀɴᴀɢᴇ ᴄʜᴇsᴛʜᴀ ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ.. 😊 ᴇᴅʜɪɴᴀ ʜᴇʟᴘ ᴋᴀᴠᴀʟɪ ᴀɴᴛᴇ ᴇʟᴀ ᴛʏᴘᴇ ᴄʜᴇʏᴀɴᴅɪ /help ᴄᴏᴍᴍᴀɴᴅ 😉.!*
 ────────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: sᴀɴᴛʜᴜ ᴍᴜsɪᴄ!*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+            text="🔥sᴀɴᴛʜʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs💖", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
+        InlineKeyboardButton(text="💖sᴜᴘᴘᴏʀᴛ💞", url="https://t.me/santhuvc"),
         InlineKeyboardButton(
-            text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
+            text="💔ᴄʜᴀɴɴᴇʟ💔", url="https://t.me/santhubotupadates"
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
+        InlineKeyboardButton(text="💙ᴀʙᴏᴜᴛ sᴀɴᴛʜᴜ💙", callback_data="yurikorobot_"),
         InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
+            text="🔰sᴀɴᴛʜᴜ Bᴀꜱɪᴄ Hᴇʟᴘ🔰", callback_data="yurikorobot_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="🏹ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴɪʙʙᴀ", url="http://t.me/Santhuofficialgroupbot?startgroup=true"),
     ],
 ]
 
@@ -119,15 +120,15 @@ buttons = [
 HELP_STRINGS = """
 *✗ MAIN COMMANDS ✗*
 
-✗ /start - `Starts me! Your probably already used this.`
-✗ /help - `Click this I ll let you know about myself!`
-✗ /settings - `in PM: will send you your settings for all supported modules.`
-✗ *In A Group: Will Redirect You To Pm With All That Chats Settings.*)"""
+💖 /start - sᴛᴀʀᴛs ᴍᴇ! ʏᴏᴜʀ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
+💘 /help - ᴄʟɪᴄᴋ ᴛʜɪs ɪ ʟʟ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!
+💝 /settings - ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
+✗ *ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛs sᴇᴛᴛɪɴɢs.*)"""
 
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- @PiroXPower's 💕"""
+DONATE_STRING = """ʜᴇʏᴀ, ɢʟᴀᴅ ᴛᴏ ʜᴇᴀʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴍʏ ɴɪʙʙᴀ ᴘʟᴇᴀsᴇ ᴅᴏɴᴀᴛᴇ💘!
+ @santhu_music_bot 💖"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -212,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
                     ),
                 )
 
@@ -248,7 +249,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport")]]
+                [[InlineKeyboardButton(text="🔥Sᴜᴘᴘᴏʀᴛ🔥", url="t.me/santhuvc")]]
             ),
         )
         
@@ -334,7 +335,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
                 ),
             )
 
@@ -380,24 +381,24 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            text=""" *santhu* - ᴀ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴡɪᴛʜ ᴀᴅᴅɪᴛɪᴏɴᴀʟ ғᴇᴀᴛᴜʀᴇs!
+            \nʜᴇʀᴇ ᴛʜᴇ ʙᴀsɪᴄ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ᴜsᴇ ᴏғ Santhuofficialgroupbot.
             
-            \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
-            \n`Report error/bugs click the Button`""",
+            \nᴀʟᴍᴏsᴛ ᴀʟʟ ᴍᴏᴅᴜʟᴇs ᴜsᴀɢᴇ ᴅᴇғɪɴᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ, ᴄʜᴇᴄᴋᴏᴜᴛ ʙʏ sᴇɴᴅɪɴɢ `/help`
+            \nʀᴇᴘᴏʀᴛ ᴇʀʀᴏʀ/ʙᴜɢs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Decodesupport"
+                            text="ʀᴇᴘᴏʀᴛs", url="t.me/santhubotupadates"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/DeeCodeBots/32"
+                            text="ɢʀᴏᴜᴘ", url="https://t.me/santhuvc"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
+                    [InlineKeyboardButton(text="◁", callback_data="yurikorobot_back")],
                 ]
             ),
         )
